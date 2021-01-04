@@ -1,0 +1,162 @@
+@import url(ventanaModal.css);
+@import url(formulariosBotones.css);
+@import url(tablas.css);
+@import url(menu.css);
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+}
+body {
+	margin-top: 50px;
+	font-family: Roboto,sans-serif;
+	background-color: #d4d4d4;
+}
+section {
+	width: 90%;
+	margin: 10px auto;
+}
+article {
+	margin: 10px auto;
+	padding: 10px;
+	margin: 10px auto;
+}
+article.login {
+	text-align: center;
+	/*background-color: #c9d0ff;*/
+	background-color: #d2d2d2;
+	width: 45%;
+	margin-top: 100px;
+	padding: 0px 0 120px 0;
+	border-radius: 10px;
+	border: 1px solid black;
+	box-shadow: 6px 7px 17px 5px;
+}
+div.divFondoLogin {
+	background-image: url('../images/fondoLogin.jpg');
+	/*height: 100vh;
+	margin-top: 0;*/
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background-size: cover;
+}
+div.tabla {
+	background-color: #FFFFFF;
+}
+
+div.cabecera {
+	height: 160px;
+	overflow: hidden;
+}
+div.centrarTitulo {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 90px;
+}
+img {
+	width: 100%;
+}
+img.imgRecursos {
+	/*width: 100px;*/
+	width: 95%;
+	max-height: 173px;
+	/*max-height: 127px;
+	height: 127px;*/
+}
+h1.cabecera {
+	/*position: absolute;
+	top: 100px;*/
+	color: white;
+	/*left: 43%;*/
+	font-size: 40px;
+	text-shadow: 2px 4px 3px rgb(5, 5, 8);
+}
+option.opHidden {
+	display: none;
+}
+.desabilitado {
+	opacity: 0.5;
+}
+a {
+	color: blue;
+	text-decoration: none;
+}
+/*div#erroresFormAnyadir {
+	padding: 5px;
+	margin: 5px;
+	line-height: 30px;
+	font-weight: normal;
+	margin-bottom: 30px;
+}*/
+div.aviso {
+	background-color: white;
+	margin-top: 12px;
+	background-color: #c6e2f9;
+	padding: 10px;
+	font-size: 14px;
+	color: #5d0eb1;
+}
+div.avisoLogin {
+	text-align: left;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+div.falloConsulta {
+	color: red;
+	padding: 5px;
+	margin-top: 15px;
+}
+div.divErroresForms {
+	padding: 5px;
+	margin: 5px;
+	line-height: 30px;
+	font-weight: normal;
+	margin-bottom: 30px;
+}
+.fas, .far {
+	margin: 10px;
+}
+
+
+/*footer-----------------------------------------------*/
+footer {
+	width: 100%;
+	background-color: #222;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	padding: 30px;
+	/*height: 40px;
+	min-height: 160px;
+	position: relative;
+	left: 0;
+	right: 0;*/
+	position: absolute;
+	bottom: 0;
+	
+}
+p.footer {
+	display: inline;
+	margin: 25px;
+	line-height: 4;
+}
+html {
+	min-height: 100%;
+	position: relative;
+}
+body {
+	margin: 0;
+	margin-bottom: 160px;
+}
